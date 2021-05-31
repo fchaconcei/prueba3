@@ -86,6 +86,7 @@ namespace BussinesLogic.Logic
                 nuevoDto.puntoJugador2 = 1;
                 partido.PuntosJugador2++;
             }
+            //comentario2
 
             this._Repository.getPartidoRepository().ModificarPartido(partido);
 
